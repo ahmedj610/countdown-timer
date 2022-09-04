@@ -42,7 +42,7 @@ let x = setInterval(function() {
     }
 
     let audio = new Audio('assets/audio.mp3')
-    // audio.play();
+    audio.play();
 
     if (difference < 0) {
         clearInterval(x);
